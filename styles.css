@@ -166,6 +166,11 @@ body {
   white-space: nowrap;
 }
 
+/* Utility class to prevent line breaks for inline elements (e.g., dates and times) */
+.nowrap {
+  white-space: nowrap;
+}
+
 .programacao tr:nth-child(even) {
   background: #f9f9f9;
 }
