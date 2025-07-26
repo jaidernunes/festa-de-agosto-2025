@@ -160,6 +160,12 @@ body {
   color: #fff;
 }
 
+/* Avoid unwanted line breaks within table cells for dates and times */
+.programacao td,
+.programacao th {
+  white-space: nowrap;
+}
+
 .programacao tr:nth-child(even) {
   background: #f9f9f9;
 }
